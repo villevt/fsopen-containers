@@ -1,0 +1,10 @@
+Script started on 2022-05-26 13:18:43+03:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="120" LINES="30"]
+]0;ville@LAPTOP-6QO37DQ5: ~/fsopen/fsopen-containers[01;32mville@LAPTOP-6QO37DQ5[00m:[01;34m~/fsopen/fsopen-containers[00m$ docker container run -it ubuntu bash
+[?2004h]0;root@867fe4d893f7: /root@867fe4d893f7:/# [K]0;root@867fe4d893f7: /root@867fe4d893f7:/# mkdir [7m/usr/src/app[27m/usr/src/app
+[?2004l[?2004h]0;root@867fe4d893f7: /root@867fe4d893f7:/# touch [7m/usr/src/app/index.js[27m/usr/src/app/index.js
+[?2004l[?2004h]0;root@867fe4d893f7: /root@867fe4d893f7:/# [Kexit
+[?2004lexit
+]0;ville@LAPTOP-6QO37DQ5: ~/fsopen/fsopen-containers[01;32mville@LAPTOP-6QO37DQ5[00m:[01;34m~/fsopen/fsopen-containers[00m$ exit
+exit
+
+Script done on 2022-05-26 13:19:17+03:00 [COMMAND_EXIT_CODE="0"]
