@@ -1,0 +1,88 @@
+Script started on 2022-06-26 22:48:53+03:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="120" LINES="30"]
+]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers[00m$ cd todo-app/todo-backend
+]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ docker-compose -f docker-compose.dev.yml -[K-d [K[K[Kup -d
+[1A[1B[0G[?25l[+] Running 1/0
+[34m ⠿ Container todo-backend-mongo-1  Running                                                                         0.0s
+[0m[?25h]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ docker container ls
+CONTAINER ID   IMAGE     COMMAND                  CREATED             STATUS             PORTS                     NAMES
+2b72ea60d4bb   mongo     "docker-entrypoint.s…"   About an hour ago   Up About an hour   0.0.0.0:3456->27017/tcp   todo-backend-mongo-1
+]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ [K]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ docker container ls[Kdocker container ls[Kdocker exec -it todo-backend-mongo-1 bash
+root@2b72ea60d4bb:/# mongo
+MongoDB shell version v5.0.9
+connecting to: mongodb://127.0.0.1:27017/?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("85bc45f2-62b8-4fc7-8ac8-53d143ae5878") }
+MongoDB server version: 5.0.9
+================
+Warning: the "mongo" shell has been superseded by "mongosh",
+which delivers improved usability and compatibility.The "mongo" shell has been deprecated and will be removed in
+an upcoming release.
+For installation instructions, see
+https://docs.mongodb.com/mongodb-shell/install/
+================
+Welcome to the MongoDB shell.
+For interactive help, type "help".
+For more comprehensive documentation, see
+	https://docs.mongodb.com/
+Questions? Try the MongoDB Developer Community Forums
+	https://community.mongodb.com
+> show dbs[3G[Jshow dbs[11G
+> use[3G[Jus[5G[3G[Ju[4G[3G[J[3G[3G[J[3G^C
+bye
+root@2b72ea60d4bb:/# mongo -u root p -p example
+MongoDB shell version v5.0.9
+connecting to: mongodb://127.0.0.1:27017/?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("c70d1b90-13a6-40b3-9a18-c7c78589aa81") }
+MongoDB server version: 5.0.9
+================
+Warning: the "mongo" shell has been superseded by "mongosh",
+which delivers improved usability and compatibility.The "mongo" shell has been deprecated and will be removed in
+an upcoming release.
+For installation instructions, see
+https://docs.mongodb.com/mongodb-shell/install/
+================
+---
+The server generated these startup warnings when booting: 
+        2022-06-26T18:28:48.744+00:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
+        2022-06-26T18:28:49.495+00:00: /sys/kernel/mm/transparent_hugepage/enabled is 'always'. We suggest setting it to 'never'
+---
+---
+        Enable MongoDB's free cloud-based monitoring service, which will then receive and display
+        metrics about your deployment (disk utilization, CPU, operation statistics, etc).
+
+        The monitoring data will be available on a MongoDB website with a unique URL accessible to you
+        and anyone you share the URL with. MongoDB may use this information to make product
+        improvements and to suggest MongoDB products and deployment options to you.
+
+        To enable free monitoring, run the following command: db.enableFreeMonitoring()
+        To permanently disable this reminder, run the following command: db.disableFreeMonitoring()
+---
+> show dbs[3G[Jshow dbs[11G
+admin         0.000GB
+config        0.000GB
+local         0.000GB
+the_database  0.000GB
+> use the-[3G[Juse the[10G_database[3G[Juse the_database[19G
+switched to db the_database
+> show collections[3G[Jshow collections[19G
+todos
+> db.todos.find({})[3G[Jdb.todos.find({})[20G
+{ "_id" : ObjectId("62b8a55ffc942d9ccd1570af"), "text" : "test" }
+{ "_id" : ObjectId("62b8a55ffc942d9ccd1570b0"), "text" : "Learn about containers", "done" : false }
+> db.todos.insertOne({"tex[3G[Jdb.todos.insertOne({"te[26G[3G[Jdb.todos.insertOne({"t[25G[3G[Jdb.todos.insertOne({"[24G[3G[Jdb.todos.insertOne({[23Gtext: "Increase the number of tools in my toolbelt", "done": false})[3G[Jdb.todos.insertOne({text: "Increase the number of tools in my toolbelt", "done": false})[91G
+{
+	"acknowledged" : true,
+	"insertedId" : ObjectId("62b8bdc98def56e29e2ddb7d")
+}
+> db.todos.find({})[3G[Jdb.todos.find({})[20G
+{ "_id" : ObjectId("62b8a55ffc942d9ccd1570af"), "text" : "test" }
+{ "_id" : ObjectId("62b8a55ffc942d9ccd1570b0"), "text" : "Learn about containers", "done" : false }
+{ "_id" : ObjectId("62b8bdc98def56e29e2ddb7d"), "text" : "Increase the number of tools in my toolbelt", "done" : false }
+> [3G[J[3G^C
+bye
+root@2b72ea60d4bb:/# ^C
+root@2b72ea60d4bb:/# exit
+exit
+]0;ville@LAPTOP-87J0LF35: ~/fsopen-containers/todo-app/todo-backend[01;32mville@LAPTOP-87J0LF35[00m:[01;34m~/fsopen-containers/todo-app/todo-backend[00m$ exit
+exit
+
+Script done on 2022-06-26 23:13:37+03:00 [COMMAND_EXIT_CODE="130"]
