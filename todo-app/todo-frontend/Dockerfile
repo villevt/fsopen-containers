@@ -1,8 +1,20 @@
-FROM node:16
+FROM node:16 as base
 
 WORKDIR /usr/src/app
 
 COPY . .
+
+
+FROM base as test
+
+RUN npm ci
+
+ENV CI=true
+
+RUN npm run test
+
+
+FROM base as build
 
 RUN npm ci --only=production
 
