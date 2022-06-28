@@ -1,0 +1,8 @@
+services:
+  app:
+    image: frontend
+    volumes: 
+      - ./:/usr/src/app
+    ports: 
+      - 3001:3000
+    
